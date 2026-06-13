@@ -32,5 +32,9 @@ public class examplelist {
 
         System.out.println("Names: " + names.toString());
 
+        names.push("Mei-mei"); 
+        System.out.printf("Elemen 0: %s total elemen: %d elemen terakhir: %s\n",
+                names.getFirst(), names.size(), names.getLast());
+        System.out.println("Names: " + names.toString());
     }
 }
